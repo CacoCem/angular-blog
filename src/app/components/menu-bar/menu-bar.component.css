@@ -5,5 +5,5 @@
 
 .container__menu-bar > ul> li {
     margin-right: 20px;
-    list-style-type: none;
+    list-style: none;
 }
