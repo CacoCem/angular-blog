@@ -97,8 +97,11 @@
         }
       }
     }
+<<<<<<< HEAD
   },
   "cli": {
     "analytics": "ae711e56-c1ee-4e9e-8ce1-a78d180d3279"
+=======
+>>>>>>> origin/main
   }
 }
