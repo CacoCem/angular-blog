@@ -1,13 +1,14 @@
 <div class="container__content">
   <div class="content__cover">
       <img
-        src="https://i.ytimg.com/vi/TDALna4aHPg/sddefault.jpg"
+        src="{{ photoCover }}"
         alt="">
   </div>
   <div class="content__title">
-    <h1>Meu Sandero</h1>
+    <h1>{{ contentTitle }}</h1>
   </div>
   <div class="content__description">
-    <p>Sandero</p>
+    <a [routerLink]="['']"><< VOLTAR</a>
+    <p>{{ contentDescription }}</p>
   </div>
 </div>
