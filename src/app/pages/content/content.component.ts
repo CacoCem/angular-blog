@@ -30,7 +30,7 @@ export class ContentComponent {
     if (id !== null) {
       const result = dataFake.filter(article => article.id === id);
       if (result.length > 0) {
-        this.photoCover = result[0].photo;
+        this.photoCover = result[0].photoCover;
         this.contentTitle = result[0].title;
         this.contentDescription = result[0].description;
       } else {
